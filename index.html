@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1 shrink-to-fit=no">  <!-- makes sure pixel == pixel on retina and zoom works on touch-->
+
+  <title>Lesson 07 : DevMe HTML & CSS</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<div class="lesson7">
+	<header>
+		
+
+
+
+
+		<h1>My Portfolio</h1>
+
+
+		<nav class="navWide">
+			<a class="active">Home</a>
+			<a href="#">About</a>	
+			<a class="rightLink" href="#">Work</a>
+		</nav>
+		
+		<nav class="navMobile">
+			<a class="active">Home</a>
+			<a href="#">About</a>	
+			<a class="rightLink" href="#">Work</a>
+		</nav>
+
+		<div class="burgerMenu">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+	</header>
+
+	<article class="about">
+		<h2>About</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu odio erat. Phasellus quam leo, aliquam at faucibus eget, <u>aliquam sit amet risus.</u> Etiam bibendum tempus dolor, eu facilisis lorem.</p>
+		
+		<p> Nulla tempus diam sit amet felis euismod, quis malesuada mauris faucibus. In <b>fermentum tellus</b> nec mi vehicula vestibulum. <i>Aliquam at nulla eget</i> libero rhoncus consectetur ac vel purus.</p>
+		
+		<p><a class="aboutMore" href="">More...</a></p>
+	</article>
+
+	<section class="recentWork">
+		<h3>Recent Work</h3>
+		
+		<div class="images">
+			<img src="images/campNothing.jpg" alt="dqdqwd">    <!-- include alt= in future -->
+			<img src="images/bike.jpg" alt="dqwdqwd">
+			<img src="images/tutorials.jpg" alt="fqwwwd">
+			<img src="images/graphic.jpg" alt="fwfwad">
+
+			<img src="images/knight.jpg" alt="dwdwdq">
+			<img src="images/toocaan.jpg" alt="dqwdwq">
+			<img src="images/head.jpg" alt="dqwdwq">
+			<img src="images/sales.jpg" alt="dwdw">
+		</div>
+
+		<a href="" class="seeMore">See More  ></a>
+		
+	</section>
+
+	<section class="getInTouch">
+		<h4>Get In Touch</h4>
+		<p>You can <a class="emailLink" href="">email me here</a>, or fill out the form below</p>
+
+		<form>
+			<div class="formLeft">				
+				<label for="fName">Name</label>
+				<input type="text" id="fName" name="name"/>				
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email"/>	
+			</div>
+			
+			<div class="formRight">
+				<label for="msg" >Message</label>
+				<input type="text" id="msg" name="message"/>
+			</div>	
+				<input class="formSubmit" type="submit" value="Send" />
+
+		</form>
+	</section>
+
+	<footer>
+		<p>Site designed by Ruth John &copy; 2017</p>
+		
+	</footer>
+</div>
+</body>
+</html>
